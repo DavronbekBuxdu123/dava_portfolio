@@ -1,0 +1,153 @@
+{
+  "Nav": {
+    "about": "Haqida",
+    "projects": "Loyihalar",
+    "testimonials": "Sharhlar",
+    "contact": "Aloqa"
+  },
+  "BentoGrid": {
+    "title": "Assalomu aleykum! Men Davronbek, Full-Stack dasturchiman",
+    "saasProjectDesc": " G‘oyadan tortib ishga tushirishgacha kengaytiriladigan  yechimlarni ishlab chiqaman",
+    "contact": "Contact"
+  },
+  "gridItems": [
+    {
+      "id": 1,
+      "title": "Men mijozlar bilan hamkorlikni birinchi o‘ringa qo‘yaman, ochiq muloqotni rag‘batlantiraman",
+      "description": "",
+      "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+      "imgClassName": "w-full h-full",
+      "titleClassName": "justify-end",
+      "img": "/b1.svg",
+      "spareImg": ""
+    },
+    {
+      "id": 2,
+      "title": "Men vaqt zonalari bo‘yicha muloqotda juda moslashuvchanman",
+      "description": "",
+      "className": "lg:col-span-2 md:col-span-3 md:row-span-2",
+      "imgClassName": "",
+      "titleClassName": "justify-start",
+      "img": "",
+      "spareImg": ""
+    },
+    {
+      "id": 3,
+      "title": "Mening texnologik to‘plamim",
+      "description": "Men doimiy ravishda takomillashtirishga harakat qilaman",
+      "className": "lg:col-span-2 md:col-span-3 md:row-span-2",
+      "imgClassName": "",
+      "titleClassName": "justify-center",
+      "img": "",
+      "spareImg": ""
+    },
+    {
+      "id": 4,
+      "title": "Texnologiyalarga ishqiboz, kengaytiriladigan tizimlarga qiziqadi.",
+      "description": "",
+      "className": "lg:col-span-2 md:col-span-3 md:row-span-1",
+      "imgClassName": "",
+      "titleClassName": "justify-start",
+      "img": "/grid.svg",
+      "spareImg": "/b4.svg"
+    },
+    {
+      "id": 5,
+      "title": "Hozirda AI quvvatli veb-ilova ustida ishlayapman",
+      "description": "Ichki ma’lumot",
+      "className": "md:col-span-3 md:row-span-2",
+      "imgClassName": "absolute right-0 bottom-0 md:w-96 w-60",
+      "titleClassName": "justify-center md:justify-start lg:justify-center",
+      "img": "/b5.svg",
+      "spareImg": "/grid.svg"
+    },
+    {
+      "id": 6,
+      "title": "Birgalikda loyiha boshlashni xohlaysizmi?",
+      "description": "",
+      "className": "lg:col-span-2 md:col-span-3 md:row-span-1",
+      "imgClassName": "",
+      "titleClassName": "justify-center md:max-w-full max-w-60 text-center",
+      "img": "",
+      "spareImg": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "O‘rganish uchun 3D Quyosh tizimi sayyoralari",
+      "des": "Three.js yordamida sayyoralarning ushbu jozibali 3D simulyatsiyasi orqali quyosh tizimimizning mo‘jizalarini kashf eting."
+    },
+    {
+      "id": 2,
+      "title": "Yoom - Video konferensiya ilovasi",
+      "des": "Yoom yordamida video konferensiya tajribangizni soddalashtiring. Hamkasblar va do‘stlar bilan muammosiz bog‘laning."
+    },
+    {
+      "id": 3,
+      "title": "AI Image SaaS - Canva ilovasi",
+      "des": "AI xususiyatlari va to‘lovlar hamda kredit tizimiga ega haqiqiy Software-as-a-Service ilovasi eng zamonaviy texnologiyalar yordamida."
+    },
+    {
+      "id": 4,
+      "title": "Animatsiyali Apple iPhone 3D veb-sayti",
+      "des": "Apple iPhone 15 Pro veb-sayti qayta yaratildi, GSAP animatsiyalari va Three.js 3D effektlari birlashtirilgan."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Adrian bilan hamkorlik qilish juda yoqimli edi. Uning professionalligi, tezkorligi va ajoyib natijalarga erishishga bo‘lgan sadoqati loyiha davomida yaqqol namoyon bo‘ldi. Adrianning rivojlanishning har bir jabhasiga bo‘lgan ishtiyoqi haqiqatan ham ajralib turadi. Agar siz veb-saytingizni va brendingizni yuksaltirmoqchi bo‘lsangiz, Adrian ideal hamkordir.",
+      "name": "Michael Johnson",
+      "title": "AlphaStream Technologies direktori"
+    },
+    {
+      "quote": "Adrian bilan hamkorlik qilish juda yoqimli edi. Uning professionalligi, tezkorligi va ajoyib natijalarga erishishga bo‘lgan sadoqati loyiha davomida yaqqol namoyon bo‘ldi. Adrianning rivojlanishning har bir jabhasiga bo‘lgan ishtiyoqi haqiqatan ham ajralib turadi. Agar siz veb-saytingizni va brendingizni yuksaltirmoqchi bo‘lsangiz, Adrian ideal hamkordir.",
+      "name": "Michael Johnson",
+      "title": "AlphaStream Technologies direktori"
+    },
+    {
+      "quote": "Adrian bilan hamkorlik qilish juda yoqimli edi. Uning professionalligi, tezkorligi va ajoyib natijalarga erishishga bo‘lgan sadoqati loyiha davomida yaqqol namoyon bo‘ldi. Adrianning rivojlanishning har bir jabhasiga bo‘lgan ishtiyoqi haqiqatan ham ajralib turadi. Agar siz veb-saytingizni va brendingizni yuksaltirmoqchi bo‘lsangiz, Adrian ideal hamkordir.",
+      "name": "Michael Johnson",
+      "title": "AlphaStream Technologies direktori"
+    },
+    {
+      "quote": "Adrian bilan hamkorlik qilish juda yoqimli edi. Uning professionalligi, tezkorligi va ajoyib natijalarga erishishga bo‘lgan sadoqati loyiha davomida yaqqol namoyon bo‘ldi. Adrianning rivojlanishning har bir jabhasiga bo‘lgan ishtiyoqi haqiqatan ham ajralib turadi. Agar siz veb-saytingizni va brendingizni yuksaltirmoqchi bo‘lsangiz, Adrian ideal hamkordir.",
+      "name": "Michael Johnson",
+      "title": "AlphaStream Technologies direktori"
+    },
+    {
+      "quote": "Adrian bilan hamkorlik qilish juda yoqimli edi. Uning professionalligi, tezkorligi va ajoyib natijalarga erishishga bo‘lgan sadoqati loyiha davomida yaqqol namoyon bo‘ldi. Adrianning rivojlanishning har bir jabhasiga bo‘lgan ishtiyoqi haqiqatan ham ajralib turadi. Agar siz veb-saytingizni va brendingizni yuksaltirmoqchi bo‘lsangiz, Adrian ideal hamkordir.",
+      "name": "Michael Johnson",
+      "title": "AlphaStream Technologies direktori"
+    }
+  ],
+  "companies": [
+    { "id": 1, "name": "cloudinary" },
+    { "id": 2, "name": "appwrite" },
+    { "id": 3, "name": "HOSTINGER" },
+    { "id": 4, "name": "stream" },
+    { "id": 5, "name": "docker." }
+  ],
+  "workExperience": [
+    {
+      "id": 1,
+      "title": "Frontend muhandis stajyori",
+      "desc": "React.js yordamida veb-platformani ishlab chiqishda yordam berdim, interaktivlikni oshirdim."
+    },
+    {
+      "id": 2,
+      "title": "Mobil ilova ishlab chiqish - JSM Tech",
+      "desc": "React Native yordamida iOS va Android platformalari uchun mobil ilovani loyihalashtirdim va ishlab chiqdim."
+    },
+    {
+      "id": 3,
+      "title": "Frilanser ilova ishlab chiqish loyihasi",
+      "desc": "Mijoz uchun mobil ilovani ishlab chiqishni boshqardim, dastlabki kontseptsiyadan tortib app do‘konlarida joylashtirishgacha."
+    },
+    {
+      "id": 4,
+      "title": "Yetakchi frontend dasturchi",
+      "desc": "Zamonaviy frontend texnologiyalardan foydalanib, foydalanuvchi uchun mo‘ljallangan funksiyalarni ishlab chiqdim va qo‘llab-quvvatladim."
+    }
+  ]
+}
