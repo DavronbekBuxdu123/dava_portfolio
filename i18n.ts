@@ -6,10 +6,12 @@ export const defaultLocale = "en" as const;
 
 export default getRequestConfig(async ({ requestLocale }) => {
   let locale = await requestLocale;
-  if (!locales.includes(locale as any)) notFound();
+  if (!locale || !locales.includes(locale as any)) {
+    locale = defaultLocale; // Yoki notFound();
+  }
 
   return {
     locale,
-    messages: (await import(`./messages/${locale}.json`)).default,
+    messages: (await import(`../messages/${locale}.json`)).default,
   };
 });
