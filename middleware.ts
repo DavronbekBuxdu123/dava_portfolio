@@ -1,4 +1,3 @@
-// middleware.ts
 import createMiddleware from "next-intl/middleware";
 
 export default createMiddleware({
@@ -7,6 +6,5 @@ export default createMiddleware({
 });
 
 export const config = {
-  // Bu matcher barcha sahifalarni to'g'ri ushlaydi
   matcher: ["/", "/(en|uz|ru)/:path*"],
 };

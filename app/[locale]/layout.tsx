@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server"; // Serverdan xabarlarni olish
+import { getMessages } from "next-intl/server";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
+import { Toaster } from "@/components/ui/sonner";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,13 +15,12 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
   children,
-  params, // params'ni async olish kerak
+  params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: string }>; // Promise ko'rinishida
+  params: Promise<{ locale: string }>;
 }) {
-  // Await qilib olishni unutmang
-  const { locale } = await params; // Await qilish
+  const { locale } = await params; 
   const messages = await getMessages({ locale });
 
   return (
@@ -34,6 +34,7 @@ export default async function RootLayout({
             disableTransitionOnChange
           >
             {children}
+            <Toaster />
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>

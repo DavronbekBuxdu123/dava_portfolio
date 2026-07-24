@@ -1,19 +1,19 @@
 {
   "Nav": {
-    "about": "Haqida",
+    "about": "Haqimda",
     "projects": "Loyihalar",
-    "testimonials": "Sharhlar",
+    "testimonials": "Sertifikatlar",
     "contact": "Aloqa"
   },
   "BentoGrid": {
-    "title": "Assalomu aleykum! Men Davronbek, Full-Stack dasturchiman",
-    "saasProjectDesc": " G‘oyadan tortib ishga tushirishgacha kengaytiriladigan  yechimlarni ishlab chiqaman",
-    "contact": "Contact"
+    "title": " Salom! Men Davronbekman — Full-Stack Dasturchi",
+    "saasProjectDesc": " G'oyadan to ishga tushirishgacha bo'lgan moslashuvchan yechimlar",
+    "contact": "Bog'lanish"
   },
   "gridItems": [
     {
       "id": 1,
-      "title": "Men mijozlar bilan hamkorlikni birinchi o‘ringa qo‘yaman, ochiq muloqotni rag‘batlantiraman",
+      "title": "Men mijozlar bilan hamkorlik va ochiq muloqotga alohida e'tibor qarataman",
       "description": "",
       "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       "imgClassName": "w-full h-full",
@@ -23,9 +23,9 @@
     },
     {
       "id": 2,
-      "title": "Men vaqt zonalari bo‘yicha muloqotda juda moslashuvchanman",
+      "title": "Istalgan vaqt zonalariga moslashish ",
       "description": "",
-      "className": "lg:col-span-2 md:col-span-3 md:row-span-2",
+      "className": "lg:col-span-2 md:col-span-3 md:row-span-2 text-sm",
       "imgClassName": "",
       "titleClassName": "justify-start",
       "img": "",
@@ -33,8 +33,8 @@
     },
     {
       "id": 3,
-      "title": "Mening texnologik to‘plamim",
-      "description": "Men doimiy ravishda takomillashtirishga harakat qilaman",
+      "title": "Mening texnologiyalar to'plamim",
+      "description": "Doimiy ravishda bilimlarimni oshirib boraman",
       "className": "lg:col-span-2 md:col-span-3 md:row-span-2",
       "imgClassName": "",
       "titleClassName": "justify-center",
@@ -43,7 +43,7 @@
     },
     {
       "id": 4,
-      "title": "Texnologiyalarga ishqiboz, kengaytiriladigan tizimlarga qiziqadi.",
+      "title": "Kengaytiriladigan tizimlarga qiziquvchi IT mutaxasisiman.",
       "description": "",
       "className": "lg:col-span-2 md:col-span-3 md:row-span-1",
       "imgClassName": "",
@@ -53,8 +53,8 @@
     },
     {
       "id": 5,
-      "title": "Hozirda AI quvvatli veb-ilova ustida ishlayapman",
-      "description": "Ichki ma’lumot",
+      "title": "Hozirda Sun'iy Intellektga asoslangan veb-ilova ustida ishlayapman",
+      "description": "Jarayondagi yangiliklar",
       "className": "md:col-span-3 md:row-span-2",
       "imgClassName": "absolute right-0 bottom-0 md:w-96 w-60",
       "titleClassName": "justify-center md:justify-start lg:justify-center",
@@ -63,7 +63,7 @@
     },
     {
       "id": 6,
-      "title": "Birgalikda loyiha boshlashni xohlaysizmi?",
+      "title": "Birgalikda yangi loyiha boshlashni xohlaysizmi?",
       "description": "",
       "className": "lg:col-span-2 md:col-span-3 md:row-span-1",
       "imgClassName": "",
@@ -72,82 +72,210 @@
       "spareImg": ""
     }
   ],
+  "is_email": {
+    "is_email": " Email manzilimni nusxalab oling",
+    "copy_email": "Email nusxalandi"
+  },
+  "Headings": {
+    "my_project": "Saralangan <purple>so'nggi loyihalar</purple>",
+    "certificates": "Mening <purple> sertifikatlarim</purple>",
+    "experience": "Mening <purple> ish tajribam </purple>",
+    "approach": "Mening <purple> yondashuvim </purple>",
+    "footer_title": "Biznesingizni yangi bosqichga olib chiqishga tayyormisiz?",
+    "footer_desc": " Bugun men bilan bog‘laning va maqsadlaringizga erishishingizga qanday yordam bera olishimni muhokama qilaylik.",
+    "contact_me": "Men bilan bog'laning ",
+    "approach_1_title": "Rejalashtirish va Strategiya",
+    "approach_1_desc": "Saytingizning maqsadlari, maqsadli auditoriyasi va asosiy funksiyalarini belgilab olish uchun birgalikda ishlaymiz. Sayt tuzilishi, navigatsiya va kontentga bo'lgan talablarni atroflicha muhokama qilamiz.",
+    "approach_2_title": "Dasturlash va Jarayon Haqida Hisobot",
+    "approach_2_desc": "Rejani kelishib olganimizdan so'ng  kod yozishga kirishaman. Dastlabki xomaki loyihadan tortib to mukammal kodgacha — har bir bosqichda sizni jarayondan xabardor qilib boraman.",
+    "approach_3_title": "Ishlab Chiqish va Ishga Tushirish",
+    "approach_3_desc": "Haqiqiy mo'jiza yuz beradigan bosqich! Tasdiqlangan dizayn asosida barcha g'oyalarni noldan boshlab ishlaydigan, sifatli va tayyor veb-sayt kodiga aylantirib beraman."
+  },
   "projects": [
     {
       "id": 1,
-      "title": "O‘rganish uchun 3D Quyosh tizimi sayyoralari",
-      "des": "Three.js yordamida sayyoralarning ushbu jozibali 3D simulyatsiyasi orqali quyosh tizimimizning mo‘jizalarini kashf eting."
+      "title": "Fuqarolar Murojaatlarini Boshqarish Admin Paneli",
+      "des": "Mahalliy hokimliklar va fuqarolar murojaatlarini nazorat qilish uchun yaratilgan zamonaviy, ma'lumotlarga boy admin paneli.",
+      "img": "/project1.png",
+      "iconLists": [
+        "/next.svg",
+        "/tail.svg",
+        "/c.svg",
+        "prisma.svg",
+        "postgresql.svg"
+      ],
+      "link": "https://t.me/shofirkon_ai_nazorat_bot",
+      "shortlink": "Shofirkon_Ai- Admin Panel"
     },
     {
       "id": 2,
-      "title": "Yoom - Video konferensiya ilovasi",
-      "des": "Yoom yordamida video konferensiya tajribangizni soddalashtiring. Hamkasblar va do‘stlar bilan muammosiz bog‘laning."
+      "title": "Shofirkon AI — Fuqarolar Murojaat Boti",
+      "des": "Aholi murojaatlarini avtomatik qabul qiluvchi, tahlil etuvchi va 30+ tuman tashkilotlariga bir necha soniyada yo'naltiruvchi AI Telegram bot.",
+      "img": "/project2.png",
+      "iconLists": [
+        "/js.svg",
+        "/node-js.svg",
+        "/grok-ai.webp",
+        "prisma.svg",
+        "postgresql.svg"
+      ],
+      "link": "https://t.me/shofirkon_ai_nazorat_bot",
+      "shortlink": "shofirkon_ai_nazorat_bot"
     },
     {
       "id": 3,
-      "title": "AI Image SaaS - Canva ilovasi",
-      "des": "AI xususiyatlari va to‘lovlar hamda kredit tizimiga ega haqiqiy Software-as-a-Service ilovasi eng zamonaviy texnologiyalar yordamida."
+      "title": "DavaCourse — Sun'iy Intellektli Kurs Yaratish Platformasi",
+      "des": "Foydalanuvchilarga avtomatik tarzda onlayn kurslar yaratish, boshqarish hamda video/rasm API'lari orqali ta'lim olish imkonini beruvchi AI SaaS platforma.",
+      "img": "/project4.png",
+      "iconLists": [
+        "/next.svg",
+        "/tail.svg",
+        "/grok-ai.webp",
+        "prisma.svg",
+        "postgresql.svg"
+      ],
+      "link": "https://online-learning-platform-six-lovat.vercel.app/",
+      "shortlink": "DavaCourse"
     },
     {
       "id": 4,
-      "title": "Animatsiyali Apple iPhone 3D veb-sayti",
-      "des": "Apple iPhone 15 Pro veb-sayti qayta yaratildi, GSAP animatsiyalari va Three.js 3D effektlari birlashtirilgan."
+      "title": "DavaSchool — Maktabni Boshqarish Tizimi",
+      "des": "Rolga asoslangan (Admin, O'qituvchi, O'quvchi, Ota-ona) boshqaruv, davomat nazorati, imtihon jadvallari va to'liq CRUD funksiyalariga ega kompleks maktab tizimi.",
+      "img": "/project5.png",
+      "iconLists": [
+        "/next.svg",
+        "/tail.svg",
+        "/c.svg",
+        "prisma.svg",
+        "postgresql.svg"
+      ],
+      "link": "https://school-management-rho-three.vercel.app/",
+      "shortlink": "DavaCourse"
+    },
+    {
+      "id": 5,
+      "title": "Dava AI — Ko'p Modelli Sun'iy Intellekt Maydoni",
+      "des": "GPT-4, Gemini Pro, Mistral va DeepSeek kabi yetakchi neyrotarmoqlarni bitta ekranda yonma-yon solishtirish imkonini beruvchi AI platforma.",
+      "img": "/project3.png",
+      "iconLists": ["/next.svg", "/tail.svg", "/c.svg", "/ts.svg", "/ai.webp"],
+      "link": "https://ai-multi-chat-eight.vercel.app/",
+      "shortlink": "ai_multi_chat"
+    },
+    {
+      "id": 6,
+      "title": "Essential English Words — Lug'at Yodlash Boti",
+      "des": "Essential English Words kitoblar to'plami asosida so'zlarni yodlash, bilimlarni interaktiv testlar orqali sinash va mustahkamlash uchun yaratilgan Telegram bot.",
+      "img": "/project6.png",
+      "iconLists": ["/js.svg", "/node-js.svg", "/ai.webp"],
+      "link": "https://t.me/EssentialEnglishWordss_Bot",
+      "shortlink": "EssentialEnglishWordss_Bot"
+    },
+    {
+      "id": 7,
+      "title": "Resume Builder — Rezyume Yaratish Boti",
+      "des": "Puppeteer va HTML/CSS shablonlari yordamida sanoqli daqiqalarda professional PDF rezyumelar tayyorlab beruvchi tezkor Telegram bot.",
+      "img": "/project7.png",
+      "iconLists": ["/js.svg", "/node-js.svg", "/ai.webp"],
+      "link": "https://t.me/rezume_builder_bot",
+      "shortlink": "Resume Builder"
+    },
+    {
+      "id": 8,
+      "title": "Dava Tube — YouTube Klon Veb-Sayti",
+      "des": "React va YouTube v3 API yordamida videolarni qidirish, kategoriyalar bo'yicha saralash va ularni tomosha qilish imkonini beruvchi mo'jazgina veb-ilova.",
+      "img": "/project8.jpg",
+      "iconLists": ["/js.svg", "/next.svg", "/ai.webp"],
+      "link": "https://you-tube-clone-dava-tube.vercel.app/",
+      "shortlink": "You Tube Clone"
     }
   ],
   "testimonials": [
     {
-      "quote": "Adrian bilan hamkorlik qilish juda yoqimli edi. Uning professionalligi, tezkorligi va ajoyib natijalarga erishishga bo‘lgan sadoqati loyiha davomida yaqqol namoyon bo‘ldi. Adrianning rivojlanishning har bir jabhasiga bo‘lgan ishtiyoqi haqiqatan ham ajralib turadi. Agar siz veb-saytingizni va brendingizni yuksaltirmoqchi bo‘lsangiz, Adrian ideal hamkordir.",
+      "quote": "Adrijan bilan hamkorlik qilish judayam yoqimli bo'ldi. Unining professionalligi, mas'uliyati va ajoyib natija topshirishga bo'lgan sodiqligi butun loyiha davomida yaqqol ko'rinib turdi. Agar brendingiz va veb-saytingizni yangi bosqichga olib chiqmoqchi bo'lsangiz, u eng yaxshi hamkordir.",
       "name": "Michael Johnson",
-      "title": "AlphaStream Technologies direktori"
+      "title": "AlphaStream Technologies Direktori"
     },
     {
-      "quote": "Adrian bilan hamkorlik qilish juda yoqimli edi. Uning professionalligi, tezkorligi va ajoyib natijalarga erishishga bo‘lgan sadoqati loyiha davomida yaqqol namoyon bo‘ldi. Adrianning rivojlanishning har bir jabhasiga bo‘lgan ishtiyoqi haqiqatan ham ajralib turadi. Agar siz veb-saytingizni va brendingizni yuksaltirmoqchi bo‘lsangiz, Adrian ideal hamkordir.",
+      "quote": "Adrijan bilan hamkorlik qilish judayam yoqimli bo'ldi. Unining professionalligi, mas'uliyati va ajoyib natija topshirishga bo'lgan sodiqligi butun loyiha davomida yaqqol ko'rinib turdi. Agar brendingiz va veb-saytingizni yangi bosqichga olib chiqmoqchi bo'lsangiz, u eng yaxshi hamkordir.",
       "name": "Michael Johnson",
-      "title": "AlphaStream Technologies direktori"
+      "title": "AlphaStream Technologies Direktori"
     },
     {
-      "quote": "Adrian bilan hamkorlik qilish juda yoqimli edi. Uning professionalligi, tezkorligi va ajoyib natijalarga erishishga bo‘lgan sadoqati loyiha davomida yaqqol namoyon bo‘ldi. Adrianning rivojlanishning har bir jabhasiga bo‘lgan ishtiyoqi haqiqatan ham ajralib turadi. Agar siz veb-saytingizni va brendingizni yuksaltirmoqchi bo‘lsangiz, Adrian ideal hamkordir.",
+      "quote": "Adrijan bilan hamkorlik qilish judayam yoqimli bo'ldi. Unining professionalligi, mas'uliyati va ajoyib natija topshirishga bo'lgan sodiqligi butun loyiha davomida yaqqol ko'rinib turdi. Agar brendingiz va veb-saytingizni yangi bosqichga olib chiqmoqchi bo'lsangiz, u eng yaxshi hamkordir.",
       "name": "Michael Johnson",
-      "title": "AlphaStream Technologies direktori"
+      "title": "AlphaStream Technologies Direktori"
     },
     {
-      "quote": "Adrian bilan hamkorlik qilish juda yoqimli edi. Uning professionalligi, tezkorligi va ajoyib natijalarga erishishga bo‘lgan sadoqati loyiha davomida yaqqol namoyon bo‘ldi. Adrianning rivojlanishning har bir jabhasiga bo‘lgan ishtiyoqi haqiqatan ham ajralib turadi. Agar siz veb-saytingizni va brendingizni yuksaltirmoqchi bo‘lsangiz, Adrian ideal hamkordir.",
+      "quote": "Adrijan bilan hamkorlik qilish judayam yoqimli bo'ldi. Unining professionalligi, mas'uliyati va ajoyib natija topshirishga bo'lgan sodiqligi butun loyiha davomida yaqqol ko'rinib turdi. Agar brendingiz va veb-saytingizni yangi bosqichga olib chiqmoqchi bo'lsangiz, u eng yaxshi hamkordir.",
       "name": "Michael Johnson",
-      "title": "AlphaStream Technologies direktori"
+      "title": "AlphaStream Technologies Direktori"
     },
     {
-      "quote": "Adrian bilan hamkorlik qilish juda yoqimli edi. Uning professionalligi, tezkorligi va ajoyib natijalarga erishishga bo‘lgan sadoqati loyiha davomida yaqqol namoyon bo‘ldi. Adrianning rivojlanishning har bir jabhasiga bo‘lgan ishtiyoqi haqiqatan ham ajralib turadi. Agar siz veb-saytingizni va brendingizni yuksaltirmoqchi bo‘lsangiz, Adrian ideal hamkordir.",
+      "quote": "Adrijan bilan hamkorlik qilish judayam yoqimli bo'ldi. Unining professionalligi, mas'uliyati va ajoyib natija topshirishga bo'lgan sodiqligi butun loyiha davomida yaqqol ko'rinib turdi. Agar brendingiz va veb-saytingizni yangi bosqichga olib chiqmoqchi bo'lsangiz, u eng yaxshi hamkordir.",
       "name": "Michael Johnson",
-      "title": "AlphaStream Technologies direktori"
+      "title": "AlphaStream Technologies Direktori"
     }
   ],
   "companies": [
-    { "id": 1, "name": "cloudinary" },
-    { "id": 2, "name": "appwrite" },
-    { "id": 3, "name": "HOSTINGER" },
-    { "id": 4, "name": "stream" },
-    { "id": 5, "name": "docker." }
+    {
+      "id": 1,
+      "name": "cloudinary",
+      "img": "/cloud.svg",
+      "nameImg": "/cloudName.svg"
+    },
+    {
+      "id": 2,
+      "name": "appwrite",
+      "img": "/app.svg",
+      "nameImg": "/appName.svg"
+    },
+    {
+      "id": 3,
+      "name": "HOSTINGER",
+      "img": "/host.svg",
+      "nameImg": "/hostName.svg"
+    },
+    {
+      "id": 4,
+      "name": "stream",
+      "img": "/s.svg",
+      "nameImg": "/streamName.svg"
+    },
+    {
+      "id": 5,
+      "name": "docker.",
+      "img": "/dock.svg",
+      "nameImg": "/dockerName.svg"
+    }
   ],
   "workExperience": [
     {
       "id": 1,
-      "title": "Frontend muhandis stajyori",
-      "desc": "React.js yordamida veb-platformani ishlab chiqishda yordam berdim, interaktivlikni oshirdim."
-    },
-    {
-      "id": 2,
-      "title": "Mobil ilova ishlab chiqish - JSM Tech",
-      "desc": "React Native yordamida iOS va Android platformalari uchun mobil ilovani loyihalashtirdim va ishlab chiqdim."
-    },
-    {
-      "id": 3,
-      "title": "Frilanser ilova ishlab chiqish loyihasi",
-      "desc": "Mijoz uchun mobil ilovani ishlab chiqishni boshqardim, dastlabki kontseptsiyadan tortib app do‘konlarida joylashtirishgacha."
+      "title": "Frontend Dasturlash Tajribasi",
+      "desc": "React.js va zamonaviy UI vositalari yordamida interaktiv, qulay hamda moslashuvchan veb-platformalarni ishlab chiqish tajribasi.",
+      "className": "md:col-span-2",
+      "thumbnail": "/exp1.svg"
     },
     {
       "id": 4,
-      "title": "Yetakchi frontend dasturchi",
-      "desc": "Zamonaviy frontend texnologiyalardan foydalanib, foydalanuvchi uchun mo‘ljallangan funksiyalarni ishlab chiqdim va qo‘llab-quvvatladim."
+      "title": "Backend Dasturlash Tajribasi ",
+      "desc": "Node.js, Python, Django hamda MongoDB yordamida tezkor backend tizimlari, REST API va Telegram botlar yaratish tajribasi.",
+      "className": "md:col-span-2",
+      "thumbnail": "/exp4.svg"
+    }
+  ],
+  "socialMedia": [
+    {
+      "id": 1,
+      "img": "/git.svg"
+    },
+    {
+      "id": 2,
+      "img": "/twit.svg"
+    },
+    {
+      "id": 3,
+      "img": "/link.svg"
     }
   ]
 }

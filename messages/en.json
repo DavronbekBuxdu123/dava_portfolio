@@ -1,14 +1,12 @@
 {
-  "Nav": {
-    "about": "About",
-    "projects": "Projects",
-    "testimonials": "Testimonials",
-    "contact": "Contact"
-  },
   "BentoGrid": {
     "title": " Hi! I'm Davronbek, a Full-Stack Developer",
     "saasProjectDesc": " Engineering Scalable Solutions from Concept to Deployment",
     "contact": "Contact"
+  },
+  "is_email": {
+    "is_email": " Copy my email address.",
+    "copy_email": "Email copied"
   },
   "gridItems": [
     {
@@ -72,77 +70,118 @@
       "spareImg": ""
     }
   ],
+  "Headings": {
+    "my_project": "A small selection of <purple>recent projects</purple>",
+    "certificates": "My <purple>certificates </purple>",
+    "experience": "My <purple> work experience </purple>",
+    "approach": "My <purple> approach </purple>",
+    "footer_title": "Ready to take  digital presence to the next level?",
+    "footer_desc": " Reach out to me today and let&apos;s discuss how I can help you achieve your goals.",
+    "contact_me": "Contact me",
+    "approach_1_title": "Planning & Strategy",
+    "approach_1_desc": "We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.",
+    "approach_2_title": "Development & Progress Update",
+    "approach_2_desc": "Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way.",
+    "approach_3_title": "Development & Launch",
+    "approach_3_desc": "This is where the magic happens! Based on the approved design,  I'll translate everything into functional code building your website from the ground up."
+  },
   "projects": [
     {
       "id": 1,
-      "title": "3D Solar System Planets to Explore",
-      "des": "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      "title": "Admin panel for Citizen Appeal Management",
+      "des": "A modern, data-driven admin dashboard built to oversee local government citizen requests.",
       "img": "/project1.png",
-      "iconLists": ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      "link": "/ui.earth.com"
+      "iconLists": [
+        "/next.svg",
+        "/tail.svg",
+        "/c.svg",
+        "prisma.svg",
+        "postgresql.svg"
+      ],
+      "link": "https://t.me/shofirkon_ai_nazorat_bot",
+      "shortlink": "Shofirkon_Ai- Admin Panel"
     },
     {
       "id": 2,
-      "title": "Yoom - Video Conferencing App",
-      "des": "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      "img": "/p2.svg",
+      "title": "Shofirkon AI — Citizen Appeal Telegram Bot",
+      "des": "An AI-driven Telegram bot that automatically accepts, processes, and routes public citizen complaints and requests to 30+ municipal organizations in seconds.",
+      "img": "/project2.png",
       "iconLists": [
-        "/next.svg",
-        "/tail.svg",
-        "/ts.svg",
-        "/stream.svg",
-        "/c.svg"
+        "/js.svg",
+        "/node-js.svg",
+        "/grok-ai.webp",
+        "prisma.svg",
+        "postgresql.svg"
       ],
-      "link": "/ui.yoom.com"
+      "link": "https://t.me/shofirkon_ai_nazorat_bot",
+      "shortlink": "shofirkon_ai_nazorat_bot"
     },
     {
       "id": 3,
-      "title": "AI Image SaaS - Canva Application",
-      "des": "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      "img": "/p3.svg",
-      "iconLists": ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      "link": "/ui.aiimg.com"
-    },
-    {
-      "id": 4,
-      "title": "Animated Apple Iphone 3D Website",
-      "des": "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      "img": "/p4.svg",
+      "title": "DavaCourse — AI Course Generation Platform",
+      "des": "An AI-powered SaaS platform that allows users to automatically generate, manage, and study custom online courses with integrated video and image APIs.",
+      "img": "/project4.png",
       "iconLists": [
         "/next.svg",
         "/tail.svg",
-        "/ts.svg",
-        "/three.svg",
-        "/gsap.svg"
+        "/grok-ai.webp",
+        "prisma.svg",
+        "postgresql.svg"
       ],
-      "link": "/ui.apple.com"
-    }
-  ],
-  "testimonials": [
+      "link": "https://online-learning-platform-six-lovat.vercel.app/",
+      "shortlink": "DavaCourse"
+    },
+
     {
-      "quote": "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      "name": "Michael Johnson",
-      "title": "Director of AlphaStream Technologies"
+      "id": 4,
+      "title": "DavaSchool — School Management System",
+      "des": "A comprehensive school management platform featuring role-based dashboards (Admin, Teacher, Student, Parent), attendance tracking, exam scheduling, and CRUD operations.",
+      "img": "/project5.png",
+      "iconLists": [
+        "/next.svg",
+        "/tail.svg",
+        "/c.svg",
+        "prisma.svg",
+        "postgresql.svg"
+      ],
+      "link": "https://school-management-rho-three.vercel.app/",
+      "shortlink": "DavaCourse"
     },
     {
-      "quote": "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      "name": "Michael Johnson",
-      "title": "Director of AlphaStream Technologies"
+      "id": 5,
+      "title": "Dava AI — Multi-Model AI Workspace",
+      "des": "An all-in-one AI platform uniting GPT-4, Gemini Pro, Mistral, and DeepSeek in a side-by-side split interface for instant response comparison.",
+      "img": "/project3.png",
+      "iconLists": ["/next.svg", "/tail.svg", "/c.svg", "/ts.svg", "/ai.webp"],
+      "link": "https://ai-multi-chat-eight.vercel.app/",
+      "shortlink": "ai_multi_chat"
     },
     {
-      "quote": "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      "name": "Michael Johnson",
-      "title": "Director of AlphaStream Technologies"
+      "id": 6,
+      "title": "Essential English Words — Learning Bot",
+      "des": "An interactive Telegram bot designed for vocabulary learning and testing, based on the complete Essential English Words book series with interactive quizzes.",
+      "img": "/project6.png",
+      "iconLists": ["/js.svg", "/node-js.svg", "/ai.webp"],
+      "link": "https://t.me/EssentialEnglishWordss_Bot",
+      "shortlink": "EssentialEnglishWordss_Bot"
     },
     {
-      "quote": "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      "name": "Michael Johnson",
-      "title": "Director of AlphaStream Technologies"
+      "id": 7,
+      "title": "Resume Builder — Telegram Bot",
+      "des": "A fast and automated Telegram bot that generates professional PDF resumes in minutes using Puppeteer and dynamic HTML/CSS templates.",
+      "img": "/project7.png",
+      "iconLists": ["/js.svg", "/node-js.svg", "/ai.webp"],
+      "link": "https://t.me/rezume_builder_bot",
+      "shortlink": "Resume Builder"
     },
     {
-      "quote": "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      "name": "Michael Johnson",
-      "title": "Director of AlphaStream Technologies"
+      "id": 8,
+      "title": "Dava Tube — YouTube Clone",
+      "des": "A responsive YouTube clone web application built with React, Tailwind CSS, and RapidAPI's YouTube v3 API that features video search, category filtering, and playback.",
+      "img": "/project8.jpg",
+      "iconLists": ["/js.svg", "/next.svg", "/ai.webp"],
+      "link": "https://you-tube-clone-dava-tube.vercel.app/",
+      "shortlink": "You Tube Clone"
     }
   ],
   "companies": [
@@ -186,39 +225,11 @@
       "thumbnail": "/exp1.svg"
     },
     {
-      "id": 2,
-      "title": "Mobile App Dev - JSM Tech",
-      "desc": "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      "className": "md:col-span-2",
-      "thumbnail": "/exp2.svg"
-    },
-    {
-      "id": 3,
-      "title": "Freelance App Dev Project",
-      "desc": "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      "className": "md:col-span-2",
-      "thumbnail": "/exp3.svg"
-    },
-    {
       "id": 4,
-      "title": "Lead Frontend Developer",
-      "desc": "Developed and maintained user-facing features using modern frontend technologies.",
+      "title": "Backend  Engineer Intern",
+      "desc": "Experienced in building scalable backends, RESTful APIs, and Telegram bots using Node.js , Python, Django, and MongoDB.",
       "className": "md:col-span-2",
       "thumbnail": "/exp4.svg"
-    }
-  ],
-  "socialMedia": [
-    {
-      "id": 1,
-      "img": "/git.svg"
-    },
-    {
-      "id": 2,
-      "img": "/twit.svg"
-    },
-    {
-      "id": 3,
-      "img": "/link.svg"
     }
   ]
 }

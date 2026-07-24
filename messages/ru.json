@@ -1,118 +1,234 @@
 {
-  "nav": {
-    "about": "Обо мне",
-    "projects": "Проекты",
-    "testimonials": "Отзывы",
-    "contact": "Контакты"
+  "BentoGrid": {
+    "title": "Привет! Я Давронбек — Full-Stack разработчик",
+    "saasProjectDesc": "Гибкие решения от идеи до полного запуска",
+    "contact": "Связаться"
   },
-  "grid": [
+  "gridItems": [
     {
       "id": 1,
-      "title": "Я ставлю сотрудничество с клиентами во главу угла, поощряя открытое общение",
-      "description": ""
+      "title": "Я уделяю особое внимание сотрудничеству и открытому общению с клиентами",
+      "description": "",
+      "className": "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+      "imgClassName": "w-full h-full",
+      "titleClassName": "justify-end",
+      "img": "/b1.svg",
+      "spareImg": ""
     },
     {
       "id": 2,
-      "title": "Я очень гибок в общении с учётом часовых поясов",
-      "description": ""
+      "title": "Гибкая адаптация к любым часовым поясам",
+      "description": "",
+      "className": "lg:col-span-2 md:col-span-3 md:row-span-2 text-sm",
+      "imgClassName": "",
+      "titleClassName": "justify-start",
+      "img": "",
+      "spareImg": ""
     },
     {
       "id": 3,
       "title": "Мой стек технологий",
-      "description": "Я постоянно стараюсь совершенствоваться"
+      "description": "Постоянно совершенствую свои знания",
+      "className": "lg:col-span-2 md:col-span-3 md:row-span-2",
+      "imgClassName": "",
+      "titleClassName": "justify-center",
+      "img": "",
+      "spareImg": ""
     },
     {
       "id": 4,
-      "title": "Энтузиаст технологий с страстью к масштабируемым системам.",
-      "description": ""
+      "title": "IT-специалист, увлеченный масштабируемыми системами.",
+      "description": "",
+      "className": "lg:col-span-2 md:col-span-3 md:row-span-1",
+      "imgClassName": "",
+      "titleClassName": "justify-start",
+      "img": "/grid.svg",
+      "spareImg": "/b4.svg"
     },
     {
       "id": 5,
-      "title": "В настоящее время разрабатываю веб-приложение на основе ИИ",
-      "description": "Инсайдерская информация"
+      "title": "В настоящее время работаю над веб-приложением на базе ИИ",
+      "description": "Новости разработки",
+      "className": "md:col-span-3 md:row-span-2",
+      "imgClassName": "absolute right-0 bottom-0 md:w-96 w-60",
+      "titleClassName": "justify-center md:justify-start lg:justify-center",
+      "img": "/b5.svg",
+      "spareImg": "/grid.svg"
     },
     {
       "id": 6,
-      "title": "Хотите начать проект вместе?",
-      "description": ""
+      "title": "Хотите начать новый проект вместе?",
+      "description": "",
+      "className": "lg:col-span-2 md:col-span-3 md:row-span-1",
+      "imgClassName": "",
+      "titleClassName": "justify-center md:max-w-full max-w-60 text-center",
+      "img": "",
+      "spareImg": ""
     }
   ],
+  "is_email": {
+    "is_email": "Скопировать мой email",
+    "copy_email": "Email скопирован"
+  },
+  "Headings": {
+    "my_project": "Подборка <purple>последних проектов</purple>",
+    "certificates": "Мои <purple>сертификаты</purple>",
+    "experience": "Мой <purple>опыт работы</purple>",
+    "approach": "Мой <purple>подход к работе</purple>",
+    "footer_title": "Готовы вывести ваш бизнес на новый уровень?",
+    "footer_desc": "Свяжитесь со мной сегодня, и мы обсудим, как я могу помочь вам достичь ваших целей.",
+    "contact_me": "Связаться со мной",
+    "approach_1_title": "Планирование и стратегия",
+    "approach_1_desc": "Мы совместно определим цели вашего сайта, целевую аудиторию и ключевую функциональность. Подробно обсудим структуру сайта, навигацию и требования к контенту.",
+    "approach_2_title": "Разработка и отчёт о процессе",
+    "approach_2_desc": "После согласования плана я приступаю к написанию кода. От первого черновика до чистого кода — я буду информировать вас на каждом этапе.",
+    "approach_3_title": "Реализация и запуск",
+    "approach_3_desc": "Этап, где происходит настоящая магия! На основе утвержденного дизайна я превращаю все идеи с нуля в работающий, качественный и готовый веб-сайт."
+  },
   "projects": [
     {
       "id": 1,
-      "title": "3D-планеты Солнечной системы для изучения",
-      "des": "Исследуйте чудеса нашей Солнечной системы с помощью этой захватывающей 3D-симуляции планет на Three.js."
+      "title": "Панель администратора для управления обращениями граждан",
+      "des": "Современная, информативная панель управления для мониторинга обращений граждан и работы местных хокимиятов.",
+      "img": "/project1.png",
+      "iconLists": [
+        "/next.svg",
+        "/tail.svg",
+        "/c.svg",
+        "prisma.svg",
+        "postgresql.svg"
+      ],
+      "link": "https://t.me/shofirkon_ai_nazorat_bot",
+      "shortlink": "Shofirkon_Ai- Admin Panel"
     },
     {
       "id": 2,
-      "title": "Yoom - приложение для видеоконференций",
-      "des": "Упростите работу с видеоконференциями с Yoom. Легко соединяйтесь с коллегами и друзьями."
+      "title": "Shofirkon AI — Бот для обращений граждан",
+      "des": "Telegram-бот на базе ИИ, который автоматически принимает, анализирует и за считанные секунды перенаправляет обращения граждан в 30+ районных организаций.",
+      "img": "/project2.png",
+      "iconLists": [
+        "/js.svg",
+        "/node-js.svg",
+        "/grok-ai.webp",
+        "prisma.svg",
+        "postgresql.svg"
+      ],
+      "link": "https://t.me/shofirkon_ai_nazorat_bot",
+      "shortlink": "shofirkon_ai_nazorat_bot"
     },
     {
       "id": 3,
-      "title": "AI Image SaaS - приложение Canva",
-      "des": "Настоящее приложение Software-as-a-Service с функциями ИИ и системой платежей и кредитов, использующее новейший стек технологий."
+      "title": "DavaCourse — Платформа для создания онлайн-курсов с ИИ",
+      "des": "AI SaaS-платформа, позволяющая пользователям автоматически создавать, управлять онлайн-курсами и обучаться с помощью видео/фото API.",
+      "img": "/project4.png",
+      "iconLists": [
+        "/next.svg",
+        "/tail.svg",
+        "/grok-ai.webp",
+        "prisma.svg",
+        "postgresql.svg"
+      ],
+      "link": "https://online-learning-platform-six-lovat.vercel.app/",
+      "shortlink": "DavaCourse"
     },
     {
       "id": 4,
-      "title": "Анимированный 3D-сайт Apple iPhone",
-      "des": "Воссоздан сайт Apple iPhone 15 Pro, сочетающий анимации GSAP и 3D-эффекты Three.js."
-    }
-  ],
-  "testimonials": [
-    {
-      "quote": "Сотрудничество с Адрианом было абсолютным удовольствием. Его профессионализм, оперативность и преданность достижению выдающихся результатов были очевидны на протяжении всего нашего проекта. Энтузиазм Адриана к каждому аспекту разработки действительно выделяется. Если вы хотите поднять свой веб-сайт и бренд на новый уровень, Адриан — идеальный партнёр.",
-      "name": "Michael Johnson",
-      "title": "Директор AlphaStream Technologies"
+      "title": "DavaSchool — Система управления школой",
+      "des": "Комплексная школьная система с ролевым доступом (Админ, Учитель, Ученик, Родитель), контролем посещаемости, расписанием экзаменов и полным CRUD-функционалом.",
+      "img": "/project5.png",
+      "iconLists": [
+        "/next.svg",
+        "/tail.svg",
+        "/c.svg",
+        "prisma.svg",
+        "postgresql.svg"
+      ],
+      "link": "https://school-management-rho-three.vercel.app/",
+      "shortlink": "DavaCourse"
     },
     {
-      "quote": "Сотрудничество с Адрианом было абсолютным удовольствием. Его профессионализм, оперативность и преданность достижению выдающихся результатов были очевидны на протяжении всего нашего проекта. Энтузиазм Адриана к каждому аспекту разработки действительно выделяется. Если вы хотите поднять свой веб-сайт и бренд на новый уровень, Адриан — идеальный партнёр.",
-      "name": "Michael Johnson",
-      "title": "Директор AlphaStream Technologies"
+      "id": 5,
+      "title": "Dava AI — Мультимодельная платформа искусственного интеллекта",
+      "des": "ИИ-платформа, позволяющая сравнивать ведущие нейросети, такие как GPT-4, Gemini Pro, Mistral и DeepSeek, бок о бок на одном экране.",
+      "img": "/project3.png",
+      "iconLists": ["/next.svg", "/tail.svg", "/c.svg", "/ts.svg", "/ai.webp"],
+      "link": "https://ai-multi-chat-eight.vercel.app/",
+      "shortlink": "ai_multi_chat"
     },
     {
-      "quote": "Сотрудничество с Адрианом было абсолютным удовольствием. Его профессионализм, оперативность и преданность достижению выдающихся результатов были очевидны на протяжении всего нашего проекта. Энтузиазм Адриана к каждому аспекту разработки действительно выделяется. Если вы хотите поднять свой веб-сайт и бренд на новый уровень, Адриан — идеальный партнёр.",
-      "name": "Michael Johnson",
-      "title": "Директор AlphaStream Technologies"
+      "id": 6,
+      "title": "Essential English Words — Бот для изучения слов",
+      "des": "Telegram-бот, созданный для изучения слов на основе серии книг Essential English Words, проверки и закрепления знаний с помощью интерактивных тестов.",
+      "img": "/project6.png",
+      "iconLists": ["/js.svg", "/node-js.svg", "/ai.webp"],
+      "link": "https://t.me/EssentialEnglishWordss_Bot",
+      "shortlink": "EssentialEnglishWordss_Bot"
     },
     {
-      "quote": "Сотрудничество с Адрианом было абсолютным удовольствием. Его профессионализм, оперативность и преданность достижению выдающихся результатов были очевидны на протяжении всего нашего проекта. Энтузиазм Адриана к каждому аспекту разработки действительно выделяется. Если вы хотите поднять свой веб-сайт и бренд на новый уровень, Адриан — идеальный партнёр.",
-      "name": "Michael Johnson",
-      "title": "Директор AlphaStream Technologies"
+      "id": 7,
+      "title": "Resume Builder — Бот для создания резюме",
+      "des": "Быстрый Telegram-бот, создающий профессиональные PDF-резюме за считанные минуты с помощью Puppeteer и HTML/CSS шаблонов.",
+      "img": "/project7.png",
+      "iconLists": ["/js.svg", "/node-js.svg", "/ai.webp"],
+      "link": "https://t.me/rezume_builder_bot",
+      "shortlink": "Resume Builder"
     },
     {
-      "quote": "Сотрудничество с Адрианом было абсолютным удовольствием. Его профессионализм, оперативность и преданность достижению выдающихся результатов были очевидны на протяжении всего нашего проекта. Энтузиазм Адриана к каждому аспекту разработки действительно выделяется. Если вы хотите поднять свой веб-сайт и бренд на новый уровень, Адриан — идеальный партнёр.",
-      "name": "Michael Johnson",
-      "title": "Директор AlphaStream Technologies"
+      "id": 8,
+      "title": "Dava Tube — Веб-сайт клона YouTube",
+      "des": "Компактное веб-приложение на React и YouTube v3 API для поиска, сортировки по категориям и просмотра видео.",
+      "img": "/project8.jpg",
+      "iconLists": ["/js.svg", "/next.svg", "/ai.webp"],
+      "link": "https://you-tube-clone-dava-tube.vercel.app/",
+      "shortlink": "You Tube Clone"
     }
   ],
   "companies": [
-    { "id": 1, "name": "cloudinary" },
-    { "id": 2, "name": "appwrite" },
-    { "id": 3, "name": "HOSTINGER" },
-    { "id": 4, "name": "stream" },
-    { "id": 5, "name": "docker." }
+    {
+      "id": 1,
+      "name": "cloudinary",
+      "img": "/cloud.svg",
+      "nameImg": "/cloudName.svg"
+    },
+    {
+      "id": 2,
+      "name": "appwrite",
+      "img": "/app.svg",
+      "nameImg": "/appName.svg"
+    },
+    {
+      "id": 3,
+      "name": "HOSTINGER",
+      "img": "/host.svg",
+      "nameImg": "/hostName.svg"
+    },
+    {
+      "id": 4,
+      "name": "stream",
+      "img": "/s.svg",
+      "nameImg": "/streamName.svg"
+    },
+    {
+      "id": 5,
+      "name": "docker.",
+      "img": "/dock.svg",
+      "nameImg": "/dockerName.svg"
+    }
   ],
   "workExperience": [
     {
       "id": 1,
-      "title": "Стажёр фронтенд-инженера",
-      "desc": "Помогал в разработке веб-платформы на React.js, повышая интерактивность."
-    },
-    {
-      "id": 2,
-      "title": "Разработка мобильных приложений - JSM Tech",
-      "desc": "Спроектировал и разработал мобильное приложение для платформ iOS и Android с использованием React Native."
-    },
-    {
-      "id": 3,
-      "title": "Проект разработки приложения на фрилансе",
-      "desc": "Руководил разработкой мобильного приложения для клиента от первоначальной концепции до размещения в магазинах приложений."
+      "title": "Опыт Frontend-разработки",
+      "desc": "Опыт разработки интерактивных, удобных и адаптивных веб-платформ с использованием React.js и современных UI-инструментов.",
+      "className": "md:col-span-2",
+      "thumbnail": "/exp1.svg"
     },
     {
       "id": 4,
-      "title": "Ведущий фронтенд-разработчик",
-      "desc": "Разрабатывал и поддерживал пользовательские функции с использованием современных фронтенд-технологий."
+      "title": "Опыт Frontend-разработки",
+      "desc": "Опыт создания быстрых backend-систем, REST API и Telegram-ботов с использованием Node.js, Python, Django и MongoDB.",
+      "className": "md:col-span-2",
+      "thumbnail": "/exp4.svg"
     }
   ]
 }
