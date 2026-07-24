@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     "Next.js Portfolio",
     "React Developer Uzbekistan",
     "Python Django",
+    "Intern Developer",
   ],
   authors: [{ name: "Davronbek Aslonov", url: "https://davron-dev.uz" }],
   creator: "Davronbek Aslonov",
