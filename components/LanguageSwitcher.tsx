@@ -29,7 +29,7 @@ export function LanguageSwitcher() {
 
   return (
     <Select value={currentLocale} onValueChange={handleLanguageChange}>
-      <SelectTrigger className="w-[100px] bg-[#6d23cd] text-white">
+      <SelectTrigger className="w-[110px] bg-[#6d23cd] text-white">
         <SelectValue placeholder="Tilni tanlang" />
       </SelectTrigger>
       <SelectContent>

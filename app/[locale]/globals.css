@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #030014;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #cbacf9 0%, #6366f1 50%, #4f46e5 100%);
+  border-radius: 9999px;
+  border: 2px solid #030014;
+  box-shadow: 0 0 10px rgba(203, 172, 249, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #e0cffc 0%, #818cf8 50%, #6366f1 100%);
+  box-shadow: 0 0 15deg rgba(203, 172, 249, 0.9);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
