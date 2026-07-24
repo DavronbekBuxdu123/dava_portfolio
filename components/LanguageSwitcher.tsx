@@ -10,9 +10,9 @@ import {
 } from "@/components/ui/select";
 
 const languages = [
-  { code: "uz", label: "🌐 O'zbekcha" },
-  { code: "ru", label: "🌐 Русский" },
-  { code: "en", label: "🌐 English" },
+  { code: "uz", label: " O'zbekcha" },
+  { code: "ru", label: " Русский" },
+  { code: "en", label: " English" },
 ];
 
 export function LanguageSwitcher() {
@@ -29,7 +29,7 @@ export function LanguageSwitcher() {
 
   return (
     <Select value={currentLocale} onValueChange={handleLanguageChange}>
-      <SelectTrigger className="w-[100px] bg-[#351a90] text-white">
+      <SelectTrigger className="w-[100px] bg-[#6d23cd] text-white">
         <SelectValue placeholder="Tilni tanlang" />
       </SelectTrigger>
       <SelectContent>
