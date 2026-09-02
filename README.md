@@ -39,4 +39,4 @@ Follow these steps to set up the project locally on your machine:
 1. **Clone the repository:**
    ```bash
  git clone https://github.com/DavronbekBuxdu123/dava_portfolio.git
- cd dava_portfolio
+cd dava_portfolio```
